@@ -1,0 +1,109 @@
+/* Common shared styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+
+/* Common styles start */
+
+.section-container {
+    width: 82vw;
+    margin: 50px auto;
+
+}
+
+h2 {
+    color: #131318;
+    font-weight: 800;
+}
+
+.title {
+    color: #FF5400;
+    font-size: 36px;
+}
+
+/* Common styles end */
+
+
+/* Navigation styles start */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-container h2 {
+    width: 100%;
+    font-size: 36px;
+    margin-left: 16px;
+}
+
+.nav-container ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container li {
+    list-style: none;
+
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.nav-container .nav-home {
+    color: #FF5400;
+    font-family: Mulish;
+}
+
+/* heading style start */
+
+.heading-container {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 50px;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.heading-container h1 {
+    color: #FFF;
+    font-size: 64px;
+    padding-top: 100px;
+    font-weight: 800;
+}
+
+.heading-container p {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+#find {
+
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 48px;
+}
+
+/* heading style end */
