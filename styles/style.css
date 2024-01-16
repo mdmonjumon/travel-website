@@ -48,6 +48,17 @@ h2 {
     margin-bottom: 24px;
 }
 
+h4 {
+    color: #131318;
+    font-size: 1.5rem;
+}
+
+.common-p {
+
+    color: #5A5A5D;
+    line-height: 26px;
+
+}
 
 /* Common styles end */
 
@@ -303,6 +314,53 @@ h2 {
 /* Why Choose section end  */
 
 
+/* Deals & Discounts styles start */
+
+.discount-text {
+    text-align: center;
+}
+
+.discount-text p {
+    width: 60vw;
+    margin: 30px auto;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+}
+
+.tour-to-maldive {
+    background: lightgray 50% / cover no-repeat;
+    background-image: url(../Images/Rectangle\ 12.png);
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.tour-to-maldive-text {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    /* gap: 10px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px; */
+
+}
+
+.maldive-text {
+
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    padding: 50px;
+    position: absolute;
+    right: 50px;
+    bottom: 15vh;
+}
+
+
 
 
 
@@ -321,10 +379,10 @@ h2 {
 
     }
 
-.your-destination{
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
+    .your-destination {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 
     .destination-img img {
 
@@ -335,8 +393,8 @@ h2 {
         border-radius: 16px;
     }
 
-    
-    .img-7{
+
+    .img-7 {
         padding: 0;
         margin: 0;
         height: 300px;
@@ -438,13 +496,13 @@ h2 {
 
     /* Why Choose section start  */
 
-.our-services{
-    flex-direction: column;
-}
+    .our-services {
+        flex-direction: column;
+    }
 
-.facility-container .price{
-    width: 82vw;
-}
+    .facility-container .price {
+        width: 82vw;
+    }
 
 
 }
