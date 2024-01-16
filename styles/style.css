@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 
 }
@@ -38,6 +39,13 @@ h2 {
     height: 52px;
     color: #FFF;
     font-size: 1.25rem;
+}
+
+
+.h3-text {
+    color: #131318;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
 }
 
 
@@ -183,11 +191,118 @@ h2 {
 }
 
 
-
 /* populer tours style End */
 
 
+/* your-destination styles start */
 
+.your-destination .your-destination-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.your-destination .your-destination-tex p {
+
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+}
+
+.your-destination-img {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 3, 1fr;
+    gap: 25px;
+
+}
+
+.img-1 {
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+
+.img-2 {
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+
+.img-3 {
+
+    grid-column: 1/span 4;
+    grid-row: 2/span 2;
+}
+
+.img-4 {
+
+    grid-column: 5/span 5;
+    grid-row: 2/span 2;
+}
+
+.img-5 {
+
+    grid-column: 10/span 3;
+    grid-row: 2/span 2;
+}
+
+.img-6 {
+
+    grid-column: 1/span 5;
+}
+
+.img-7 {
+    grid-column: 6/span 7;
+}
+
+
+/* your-destination styles end */
+
+
+/* Why Choose section start  */
+
+.service-text {
+
+    text-align: center;
+}
+
+.service-text p {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.our-services {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.our-services .hotels {
+    border-radius: 16px;
+    padding: 35px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.our-services .world-class-service {
+    border-radius: 16px;
+    padding: 35px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.facility-container .price {
+
+
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    margin: auto;
+    padding: 35px;
+
+
+}
 
 
 
@@ -201,7 +316,72 @@ h2 {
 /* heading start */
 
 @media screen and (max-width: 600px) {
-    .nav-container, .populer-tours {
+
+    .your-destination-img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+
+    }
+
+
+
+    .destination-img img {
+
+        width: 80vw;
+        height: 300px;
+        margin: 0 auto;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+
+
+
+
+    .img-1 {
+
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+
+    .img-2 {
+        grid-column: 1/span 1;
+        grid-row: 2/span 2;
+
+    }
+
+    .img-3 {
+        grid-column: 1/span 1;
+        grid-row: 3/span 3;
+
+    }
+
+    .img-4 {
+        grid-column: 1/span 1;
+        grid-row: 4/span 4;
+
+    }
+
+    .img-5 {
+        grid-column: 1/span 1;
+        grid-row: 5/span 5;
+
+    }
+
+    .img-6 {
+        grid-column: 1/span 1;
+        grid-row: 6/span 6;
+
+    }
+
+    .img-7 {
+        grid-column: 1/span 1;
+        grid-row: 7/span 7;
+
+    }
+
+    .nav-container,
+    .populer-tours {
         flex-direction: column;
     }
 
@@ -233,10 +413,16 @@ h2 {
     /* heading  end */
 
     /* populer-tours start */
-    .populer-tours .tour-img img{
-        width: 100%  
+    .populer-tours .tour-img img {
+        width: 100%
     }
 
-     /* populer-tours end */
+
+    /* populer-tours end */
+
+
+    /* your-destination */
+
+
 
 }
