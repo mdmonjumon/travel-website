@@ -182,9 +182,7 @@ h2 {
     line-height: 26px;
 }
 
-.populer-tours .tour-img img{
-    width: 100%  
-}
+
 
 /* populer tours style End */
 
@@ -234,7 +232,11 @@ h2 {
 
     /* heading  end */
 
+    /* populer-tours start */
+    .populer-tours .tour-img img{
+        width: 100%  
+    }
 
-
+     /* populer-tours end */
 
 }
