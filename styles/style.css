@@ -212,8 +212,6 @@ h2 {
     grid-gap: 25px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 3, 1fr;
-    gap: 25px;
-
 }
 
 .img-1 {
@@ -300,9 +298,9 @@ h2 {
     width: 50%;
     margin: auto;
     padding: 35px;
-
-
 }
+
+/* Why Choose section end  */
 
 
 
@@ -323,7 +321,10 @@ h2 {
 
     }
 
-
+.your-destination{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
     .destination-img img {
 
@@ -332,6 +333,20 @@ h2 {
         margin: 0 auto;
         object-fit: cover;
         border-radius: 16px;
+    }
+
+    
+    .img-7{
+        padding: 0;
+        margin: 0;
+        height: 300px;
+    }
+
+    .img-7 img {
+        height: 300px;
+
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
 
@@ -421,8 +436,15 @@ h2 {
     /* populer-tours end */
 
 
-    /* your-destination */
+    /* Why Choose section start  */
 
+.our-services{
+    flex-direction: column;
+}
+
+.facility-container .price{
+    width: 82vw;
+}
 
 
 }
