@@ -509,6 +509,8 @@ footer hr {
 
 .footer-logo{
     display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
 }
 
 /* footer styles end */
