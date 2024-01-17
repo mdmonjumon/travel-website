@@ -41,23 +41,41 @@ h2 {
     font-size: 1.25rem;
 }
 
+.mid-button {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
 
 .h3-text {
     color: #131318;
     font-size: 2.5rem;
     margin-bottom: 24px;
+
 }
 
 h4 {
     color: #131318;
     font-size: 1.5rem;
+    margin-bottom: 16px;
+
 }
 
 .common-p {
 
     color: #5A5A5D;
     line-height: 26px;
+    padding-bottom: 16px;
 
+}
+
+.price-p {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    padding-bottom: 24px;
+    font-weight: 800;
 }
 
 /* Common styles end */
@@ -340,10 +358,6 @@ h4 {
     display: flex;
     gap: 10px;
     padding-bottom: 20px;
-    /* gap: 10px;
-    margin-left: 80px;
-    margin-top: 50px;
-    margin-bottom: 20px; */
 
 }
 
@@ -357,10 +371,100 @@ h4 {
     padding: 50px;
     position: absolute;
     right: 50px;
-    bottom: 15vh;
+    bottom: 8vh;
 }
 
 
+
+.indonesia-img {
+
+    background: lightgray 50% / cover no-repeat;
+    background-image: url(../Images/Indonesia.png);
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+
+}
+
+.indonesia-offer {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    padding: 50px;
+    position: absolute;
+    left: 50px;
+    bottom: 8vh;
+}
+
+
+/* perfect place start */
+
+.perfect-place {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+
+.perfect-video video {
+    border-radius: 16px;
+    width: 40vw;
+}
+
+
+
+.perfect-text ul li {
+    padding-bottom: 16px;
+    margin-left: 15px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+/* Perfect Place end */
+
+
+/* newsletter-container start */
+.newsletter-container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.newsletter-text {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    background: #FFF;
+    padding: 40px;
+
+
+}
+
+.newsletter-text label input {
+
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+.newsletter-text label button {
+
+    width: 393px;
+    margin-top: 24px;
+}
+
+
+/* newsletter-container end */
 
 
 
@@ -503,6 +607,91 @@ h4 {
     .facility-container .price {
         width: 82vw;
     }
+
+    /* Why Choose section end  */
+
+    /* Deals & Discounts styles start */
+
+
+    .tour-to-maldive-text {
+
+        gap: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .maldive-text {
+
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        width: 90%;
+        padding: 15px;
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+
+    }
+
+    .indonesia-offer {
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        width: 90%;
+        padding: 15px;
+        position: absolute;
+        left: 5%;
+        bottom: 5%;
+    }
+
+    h4 {
+        color: #131318;
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+
+    }
+
+    .common-p {
+
+        color: #5A5A5D;
+        line-height: 26px;
+        padding-bottom: 5px;
+
+    }
+
+    .price-p {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 1.25rem;
+        padding-bottom: 5px;
+        font-weight: 800;
+    }
+
+    .mid-button button {
+        display: none;
+    }
+
+    /* perfect place start */
+
+    .perfect-place,
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .perfect-video video {
+        border-radius: 16px;
+        width: 80vw;
+    }
+
+    /* newsletter-container start */
+    .newsletter-container .newsletter-img img {
+        width: 80vw;
+
+    }
+
+    /* newsletter-container end */
 
 
 }
